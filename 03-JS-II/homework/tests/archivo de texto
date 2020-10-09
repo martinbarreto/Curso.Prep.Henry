@@ -1,0 +1,36 @@
+Archivo de texto:
+for: nos permite hacer una acción repetidas veces.
+	está formado por () y []
+	dentro de los parentesis vamos a tener 3 cosas:
+	1 una variable
+	2 la condición que tiene que cumplir la variable para que la acción se repita y
+	3 como va a aumentar la variable cada ves que se repita la acción
+
+	la acción se va a repetir hasta que la condición no se cumpla.
+
+	dentro de las llaves ponemos el mensaje que queremos imprimir
+
+	por ejemplo quiero imprimir todos los numeros hasta el 10
+
+	for(var i=0; i <=10; i++) {
+	console.log(i)
+	}
+
+&&: los traducimos como ¨y¨ y la usamos para sumar dos condiciones que seran necesarias para que la respuesta sea true.
+	Por ejemplo: if(i > 5 && i < 10) {
+					return true
+					}
+la respuesta será true si i es mayor que 5 ¨y¨ menor que 10
+
+||: lo traducimos como¨o¨ y la usamos para cuando necesitamos que una entre varias condiciones sea necesaria para que la respuesta sea true.
+	Por ejemplo: if(i < 5 || i > 10) {
+					return true
+					}
+la respuesta será true si i es menor que 5 ¨o¨ si i es mayor que 10
+
+!: A este operador lo llamamos NOT, y su función es devolver lo contrario a lo que le demos. por ejemplo if(i != 5) {
+						return true
+						}
+le estamos diciendo al operador que devuelva true cuando i no sea igual a 5
+					
+
